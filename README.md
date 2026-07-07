@@ -39,7 +39,20 @@ This Google Colab notebook implements a comprehensive Copula Hedge Ratio Framewo
   - Minimum Conditional Expected Shortfall (MinCCFaR)
 
 ## Key Findings
+```
+Full Comparison: OLS vs Copula Hedge Ratios ──
 
+  Hub             HR_roll  OLS_const   OLS_roll   Cop_Var   Cop_CFaR   HE_OLS   HE_Cop      Copula
+  ────────────────────────────────────────────────────────────────────────────────────────────────────
+  NYISO A           11.22    -8.4172   -11.4193   -2.0560    -1.7305    20.9%    16.5%   Student-t
+  NYISO C           13.20    -9.0409   -12.6673   -1.6922    -1.0012    24.8%    15.6%   Student-t
+  NYISO G           14.18   -10.9419   -14.0491   -1.6263    -0.9893    27.1%    16.1%   Student-t
+  NYISO J           14.39   -11.6458   -14.5821   -1.7350    -1.0265    26.9%    16.5%   Student-t
+  Nepool MH         15.20    -4.8788   -11.2532   -1.4787    -1.2569    19.4%    11.2%   Student-t
+  PJM WH            15.88    -0.9560    -2.2788   -0.6891    -0.3591     1.1%     4.2%   Student-t
+  ERCOT North        8.30    -3.5202    -2.4219   -8.4451    -4.2929     0.1%    17.8%   Student-t
+  SP15               3.76    -8.9187    -8.5245   -4.0943    -3.6507    16.3%     9.0%   Student-t
+```
 <img src="HeatRate.png" alt="" width="1500" align="center"/>
 
 
