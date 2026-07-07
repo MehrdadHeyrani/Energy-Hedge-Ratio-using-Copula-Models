@@ -55,6 +55,6 @@ Full Comparison: OLS vs Copula Hedge Ratios ──
 ```
 <img src="HeatRate.png" alt="" width="1500" align="center"/>
 
-<img src="CopulaPlot.png" alt="" width="1500" align="center"/>
+<img src="CopulaPlot_h.png" alt="" width="1500" align="center"/>
 
 <img src="HedgeRatio.png" alt="" width="1500" align="center"/>
